@@ -6,3 +6,17 @@
     matrizes ou tipos que exigem ponteiros não terão este probklema já que o endereço de memoria ja os diferencia
 
 """
+
+a = 256
+b = 256
+
+a is b
+
+c = [1,2,3]
+d = [1,2,3]
+
+c is d
+
+a+= 1
+
+a is b

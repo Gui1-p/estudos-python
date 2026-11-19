@@ -3,6 +3,6 @@
 """
 
 name = input("nome: ")
-age = input("idade: ")
+data = input("Ano de nascimento: ")
 
-print(f"{name} irá fazer {int(age) + 1}  anos")
+print(f"{name} faz {2026 - int(data)}  anos")
